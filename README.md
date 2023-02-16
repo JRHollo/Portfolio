@@ -3,7 +3,7 @@ Portfolio of data science projects. Each headline below references the subfolder
 
 
 ## K_Means_Iris_dataset
-This project was an attempt to apply K-Means clustering to the Iris dataset to identify the number of species. In this attempt, I split the data into two datasets (Iris-data, Iris_with_answers). I performed the clustering on the iris.csv dataset and compared back to the Iris-with-answers dataset. Turns out that k-means clustering wasn't a good fit for identifying species as the k-means algorithm clustered on sepal instead of petal attributes, but, in biology, species were derived more by petal attributes.
+This project was an attempt to apply K-Means clustering to the Iris dataset to identify the number of species. In this attempt, I split the data into two datasets (Iris-dataset.csv, Iris_with_answers.csv). I performed the clustering on the iris-dataset.csv, which excluded the species variable, and compared back to the Iris-with-answers.csv. Turns out that k-means clustering wasn't a good fit for identifying species as the k-means algorithm clustered on sepal instead of petal attributes, but, in biology, species were derived more by petal attributes.
 
 
 ## Linear_Regression_Used_Car_Prices
